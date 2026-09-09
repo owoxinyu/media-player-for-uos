@@ -1,0 +1,52 @@
+QWidget {
+    border: 0px;
+    border-radius: 7px;
+    background-color: rgba(28, 28, 30, 255);
+}
+
+
+QDockWidget > QLabel, QMenuBar {
+    margin-bottom: 2px;
+    padding: 2px;
+    border-radius: 6px;
+    background-color: rgba(44, 44, 46, 255);
+    color: white;
+}
+
+QMenuBar {
+    padding: 3px 2px;
+}
+
+QMenuBar::item {
+    color: white;
+    padding: 2px 4px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    background-color: rgba(99, 99, 102, 255);
+}
+
+QMenuBar::item:selected, QMenuBar::item:hover {
+    background-color: rgba(44, 44, 46, 200);
+}
+
+QMenu {
+    padding: 3px 2px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgba(44, 44, 46, 255);
+}
+
+QMenu::item {
+    color: white;
+    height: 23px;
+    padding: 2px 4px;
+    border: 0px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    background-color: rgba(99, 99, 102, 255);
+}
+
+QMenu::item:selected, QMenuBar::item:hover {
+    background-color: rgba(44, 44, 46, 200);
+}

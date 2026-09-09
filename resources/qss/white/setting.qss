@@ -1,0 +1,62 @@
+QWidget {
+    border-radius: 7px;
+    background: rgba(199, 199, 204, 255);
+}
+
+QLabel {
+    color: black;
+    height: 26px;
+    padding: 2px;
+    background: rgba(242, 242, 247, 255);
+    min-width: 160px;
+    max-width: 160px;
+}
+
+QTabBar {
+    padding: 3px 2px;
+}
+
+QTabBar::tab {
+    color: black;
+    height: 26px;
+    margin: 2px 2px;
+    min-width: 60px;
+    padding: 2px 4px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    background-color: rgba(229, 229, 234, 255);
+}
+
+QTabBar::tab:selected {
+    background-color: rgba(174, 174, 178, 200);
+}
+
+QSlider {
+    height: 30px;
+    min-width: 270px;
+    max-width: 270px;
+    border: 0px;
+    border-radius: 7px;
+    background: transparent;
+}
+
+QSlider::groove {
+    background: rgba(242, 242, 247, 255);
+    border: 0px;
+    border-radius: 7px;
+    padding: 0px -3px;
+}
+
+QSlider::sub-page {
+    border-radius: 3px;
+}
+
+QSlider::handle {
+    background: rgba(174, 174, 178, 200);
+    margin: 3px 6px;
+    height: 22px;
+    width: 85px;
+    border: 0px;
+    border-radius: 6px;
+}

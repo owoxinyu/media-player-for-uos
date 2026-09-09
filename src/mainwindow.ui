@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>800</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>播放器</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpen_File"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>音频</string>
+    </property>
+    <widget class="QMenu" name="menuAudio_Track">
+     <property name="title">
+      <string>轨道</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuAudio_Device">
+     <property name="title">
+      <string>设备</string>
+     </property>
+    </widget>
+    <addaction name="menuAudio_Track"/>
+    <addaction name="menuAudio_Device"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionIncreace_Volume"/>
+    <addaction name="actionDecrease_Volume"/>
+    <addaction name="actionMute"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>视频</string>
+    </property>
+    <widget class="QMenu" name="menuVideo_Track">
+     <property name="title">
+      <string>轨道</string>
+     </property>
+    </widget>
+    <addaction name="menuVideo_Track"/>
+    <addaction name="actionFullscreen"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="actionPreference"/>
+    <addaction name="actionFeeling"/>
+   </widget>
+   <widget class="QMenu" name="menuPlayBack">
+    <property name="title">
+     <string>音轨</string>
+    </property>
+    <addaction name="actionPlay"/>
+    <addaction name="actionStop"/>
+    <addaction name="actionPrevious"/>
+    <addaction name="actionNext"/>
+    <addaction name="actionBackward"/>
+    <addaction name="actionForward"/>
+    <addaction name="separator"/>
+    <addaction name="actionPlaylist"/>
+    <addaction name="actionLoopStatus"/>
+    <addaction name="actionRandom"/>
+   </widget>
+   <widget class="QMenu" name="menuSubtitle">
+    <property name="title">
+     <string>字幕</string>
+    </property>
+    <widget class="QMenu" name="menuSubtitle_Track">
+     <property name="title">
+      <string>轨道</string>
+     </property>
+    </widget>
+    <addaction name="menuSubtitle_Track"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuPlayBack"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menuSubtitle"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <action name="actionOpen_File">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/file_folder.svg</normaloff>:/images/file_folder.svg</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件...</string>
+   </property>
+  </action>
+  <action name="actionPlay">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/play.svg</normaloff>:/images/play.svg</iconset>
+   </property>
+   <property name="text">
+    <string>播放</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/pause.svg</normaloff>:/images/pause.svg</iconset>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </action>
+  <action name="actionPrevious">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MediaSkipBackward"/>
+   </property>
+   <property name="text">
+    <string>上一首</string>
+   </property>
+  </action>
+  <action name="actionNext">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MediaSkipForward"/>
+   </property>
+   <property name="text">
+    <string>下一首</string>
+   </property>
+  </action>
+  <action name="actionIncreace_Volume">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/sound_3.svg</normaloff>:/images/sound_3.svg</iconset>
+   </property>
+   <property name="text">
+    <string>增加音量</string>
+   </property>
+  </action>
+  <action name="actionDecrease_Volume">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/sound_1.svg</normaloff>:/images/sound_1.svg</iconset>
+   </property>
+   <property name="text">
+    <string>减小音量</string>
+   </property>
+  </action>
+  <action name="actionMute">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/sound_mute.svg</normaloff>:/images/sound_mute.svg</iconset>
+   </property>
+   <property name="text">
+    <string>静音</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::HelpFaq"/>
+   </property>
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::HelpAbout"/>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="actionPreference">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/setting.svg</normaloff>:/images/setting.svg</iconset>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </action>
+  <action name="actionFullscreen">
+   <property name="text">
+    <string>全屏</string>
+   </property>
+  </action>
+  <action name="actionPlaylist">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/playlist.svg</normaloff>:/images/playlist.svg</iconset>
+   </property>
+   <property name="text">
+    <string>播放列表</string>
+   </property>
+  </action>
+  <action name="actionLoopStatus">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/repeat.svg</normaloff>:/images/repeat.svg</iconset>
+   </property>
+   <property name="text">
+    <string>循环</string>
+   </property>
+  </action>
+  <action name="actionRandom">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/shuffle.svg</normaloff>:/images/shuffle.svg</iconset>
+   </property>
+   <property name="text">
+    <string>随机</string>
+   </property>
+  </action>
+  <action name="actionBackward">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/rewind.svg</normaloff>:/images/rewind.svg</iconset>
+   </property>
+   <property name="text">
+    <string>后进</string>
+   </property>
+  </action>
+  <action name="actionForward">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/forward.svg</normaloff>:/images/forward.svg</iconset>
+   </property>
+   <property name="text">
+    <string>前进</string>
+   </property>
+  </action>
+  <action name="actionFeeling">
+   <property name="icon">
+    <iconset resource="qss.qrc">
+     <normaloff>:/images/robot.svg</normaloff>:/images/robot.svg</iconset>
+   </property>
+   <property name="text">
+    <string>内容感知</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="qss.qrc"/>
+ </resources>
+ <connections/>
+</ui>

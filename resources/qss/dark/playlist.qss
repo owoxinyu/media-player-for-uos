@@ -1,0 +1,39 @@
+QWidget {
+    border-radius: 10px;
+    background-color: rgba(72, 72, 74, 255);
+    padding: 1px;
+}
+
+QListWidget {
+    padding: 6px 2px;
+}
+
+QListWidget::item {
+    color: white;
+    padding: 1px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    background-color: rgba(99, 99, 102, 255);
+}
+
+QListWidget::item:selected {
+    background-color: rgba(44, 44, 46, 200);
+}
+
+QScrollBar {
+    height: 15px;
+    border: 0px;
+    border-radius: 6px;
+    background: rgba(142, 142, 147, 255);
+}
+
+QScrollBar::handle {
+    border: 0px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: none;
+}

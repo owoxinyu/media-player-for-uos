@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Media Player for UOS
+Comment=Play audio and video files on UOS
+Exec=media-player-for-uos %U
+Icon=media-player-for-uos
+Terminal=false
+Categories=AudioVideo;Player;
+StartupNotify=true

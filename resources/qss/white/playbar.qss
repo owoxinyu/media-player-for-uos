@@ -1,0 +1,69 @@
+QWidget {
+    border-radius: 10px;
+    background-color: rgba(199, 199, 204, 255);
+}
+
+QLabel {
+    color: black;
+}
+
+QPushButton {
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    border-radius: 6px;
+    background: rgba(242, 242, 247, 255);
+}
+
+QPushButton:checked {
+    background-color: rgba(174, 174, 178, 200);
+}
+
+
+QSlider {
+    border: 0px;
+    background: transparent;
+}
+
+QSlider::groove {
+    background: rgba(242, 242, 247, 255);
+    border: 0px;
+    border-radius: 3px;
+    padding: 0px -3px;
+    height: 6px;
+}
+
+QSlider::sub-page {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 255);
+}
+
+QSlider::handle {
+    border: 0px;
+    border-radius: 3px;
+}
+
+QDoubleSpinBox {
+    color: black;
+    border: 0px;
+    height: 26px;
+    min-width: 50px;
+    padding: 2px 0px;
+    border-radius: 6px;
+    selection-color: black;
+    selection-background-color: rgba(242, 242, 247, 255);
+    background: rgba(242, 242, 247, 255);
+}
+
+QDoubleSpinBox::up-button {
+    border: 0px;
+    border-top-right-radius: 1px;
+    background-color: rgba(174, 174, 178, 200);
+}
+
+QDoubleSpinBox::down-button {
+    border: 0px;
+    border-bottom-right-radius: 3px;
+    background-color: rgba(174, 174, 178, 200);
+}

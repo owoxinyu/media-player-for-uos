@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/edit_clear.svg</file>
+        <file>images/eject.svg</file>
+        <file>images/end.svg</file>
+        <file>images/file.svg</file>
+        <file>images/file_folder.svg</file>
+        <file>images/forward.svg</file>
+        <file>images/pause.svg</file>
+        <file>images/play.svg</file>
+        <file>images/playlist.svg</file>
+        <file>images/record.svg</file>
+        <file>images/refresh.svg</file>
+        <file>images/resume_button.svg</file>
+        <file>images/rewind.svg</file>
+        <file>images/setting.svg</file>
+        <file>images/shuffle.svg</file>
+        <file>images/skip_back_15.svg</file>
+        <file>images/skip_to_start.svg</file>
+        <file>images/sound_0.svg</file>
+        <file>images/sound_1.svg</file>
+        <file>images/sound_2.svg</file>
+        <file>images/sound_3.svg</file>
+        <file>images/sound_mute.svg</file>
+        <file>images/stop.svg</file>
+        <file>images/repeat.svg</file>
+        <file>images/robot.svg</file>
+    </qresource>
+    <qresource prefix="/theme/dark">
+        <file alias="mainwindow.qss">qss/dark/mainwindow.qss</file>
+        <file alias="modelchat.qss">qss/dark/modelchat.qss</file>
+        <file alias="playbar.qss">qss/dark/playbar.qss</file>
+        <file alias="playlist.qss">qss/dark/playlist.qss</file>
+        <file alias="setting.qss">qss/dark/setting.qss</file>
+        <file alias="shortcutkeyedititem.qss">qss/dark/shortcutkeyedititem.qss</file>
+    </qresource>
+    <qresource prefix="/theme/white">
+        <file alias="mainwindow.qss">qss/white/mainwindow.qss</file>
+        <file alias="modelchat.qss">qss/white/modelchat.qss</file>
+        <file alias="playbar.qss">qss/white/playbar.qss</file>
+        <file alias="playlist.qss">qss/white/playlist.qss</file>
+        <file alias="setting.qss">qss/white/setting.qss</file>
+        <file alias="shortcutkeyedititem.qss">qss/white/shortcutkeyedititem.qss</file>
+    </qresource>
+</RCC>

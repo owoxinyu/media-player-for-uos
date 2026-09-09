@@ -1,0 +1,75 @@
+QWidget {
+    border-radius: 10px;
+    background-color: rgba(44, 44, 46, 255);
+}
+
+QLabel, QLineEdit, QTextEdit {
+    color: white;
+    height: 26px;
+    padding: 2px 6px;
+    background: rgba(142, 142, 147, 255);
+}
+
+QTextEdit {
+    min-height: 100px;
+    margin: 4px;
+    margin-bottom: 10px;
+}
+
+QLabel {
+    min-width: 85px;
+    max-width: 85px;
+    color: white;
+    height: 26px;
+    padding: 2px;
+    background: rgba(142, 142, 147, 255);
+}
+
+QPushButton {
+    color: white;
+    margin: 0px 5px;
+    width: 60px;
+    height: 30px;
+    border: 1px;
+    border-radius: 6px;
+    background: rgba(142, 142, 147, 255);
+}
+
+QPushButton:checked {
+    background-color: rgba(44, 44, 46, 200);
+}
+
+QListWidget {
+    margin: 2px;
+    padding: 6px 2px;
+}
+
+QListWidget::item {
+    color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    background-color: rgba(99, 99, 102, 255);
+}
+
+QListWidget::item:selected {
+    background-color: rgba(44, 44, 46, 200);
+}
+
+QScrollBar {
+    height: 15px;
+    border: 0px;
+    border-radius: 6px;
+    background: rgba(142, 142, 147, 255);
+}
+
+QScrollBar::handle {
+    border: 0px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: none;
+}

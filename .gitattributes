@@ -1,0 +1,18 @@
+* text=auto
+
+*.cpp text eol=lf
+*.h text eol=lf
+*.ui text eol=lf
+*.qss text eol=lf
+*.qrc text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+*.sh text eol=lf
+*.desktop text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary

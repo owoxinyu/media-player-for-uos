@@ -1,0 +1,35 @@
+QWidget {
+    border-radius: 7px;
+    background: rgba(199, 199, 204, 255);
+}
+
+QLabel, QLineEdit {
+    color: black;
+    height: 26px;
+    padding: 2px;
+    background: rgba(242, 242, 247, 255);
+}
+
+QLabel#shortcutNameLabel {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+QKeySequenceEdit {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+
+QPushButton {
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    border-radius: 6px;
+    background: rgba(242, 242, 247, 255);
+}
+
+QPushButton:hover {
+    background-color: rgba(174, 174, 178, 200);
+}
